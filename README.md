@@ -50,8 +50,10 @@ The frontend is a React component named `ServiceMonitor`. It uses Axios for HTTP
 
 ### Usage
 
-The `ServiceMonitor` component fetches the status of a service named 'Voxco' on multiple servers, every time it is rendered. The servers it queries are defined in the `servers` array.
-
+The `ServiceMonitor` component fetches the status of any service with "Voxco" in the name on multiple servers, every time it is rendered. The servers it queries are defined in the `servers` array.
+The 'SystemMonitor' component  fetches the power status of all defined servers.
+The 'ServiceControl' component allows for the execution of service related commands.  
+The 'SystemControl' component allows for the restarting of servers
 ### Running the Frontend
 
 To run the frontend:
